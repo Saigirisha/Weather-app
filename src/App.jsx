@@ -11,7 +11,8 @@ function App() {
   const [forecast, setForecast] = useState([]);
   const [loading, setLoading] = useState(false);
 
-  const apiKey = "e89d7ca57257195e5066673904e5d14f";
+  const apiKey = "";
+  // "e89d7ca57257195e5066673904e5d14f";
 
   const fetchWeather = async (city) => {
     try {
