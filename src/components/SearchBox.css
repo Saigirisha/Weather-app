@@ -1,0 +1,37 @@
+/* Container */
+.search-container {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+  justify-content: center;
+}
+
+/* Input */
+.search-input {
+  padding: 8px 10px;
+  width: 240px;
+  border: none;
+  border-bottom: 2px solid #ccc;
+  outline: none;
+  font-size: 14px;
+  transition: border-color 0.3s;
+}
+
+.search-input:focus {
+  border-bottom: 2px solid #2193b0;
+}
+
+/* Button */
+.search-btn {
+  background-color: #2193b0;
+  color: white;
+  padding: 6px 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.search-btn:hover {
+  background-color: #176d85;
+}

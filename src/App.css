@@ -1,0 +1,49 @@
+/* Main Container */
+.app-container {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #74ebd5, #9face6);
+  /* background-color: black; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+
+/* Header */
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 900px;
+}
+
+/* Title */
+.title {
+  color: #2193b0;
+  font-size: 26px;
+  font-weight: bold;
+  /* margin-top: 20px; */
+}
+
+/* Loading */
+.loading {
+  /* margin-top: 30px; */
+  font-size: 16px;
+  color: #333;
+}
+
+/* Empty State */
+.empty {
+  /* margin-top: 30px; */
+  font-size: 15px;
+  color: #777;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    gap: 15px;
+  }
+}
